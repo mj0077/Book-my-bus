@@ -1,0 +1,102 @@
+.App {
+  background: linear-gradient(to top, rgba(15, 77, 128, 0.7), rgba(250, 205, 175, 0.8));
+  height: 99.8vh;
+  min-height: fit-content;
+  max-width: 99.7vw;
+}
+
+/* html {
+  font-size: 10px;
+  
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h3 a {
+  text-decoration: none;
+  color: rgb(139, 0, 0);
+}
+
+.nav-link {
+  color: black !important;
+  font-weight: bolder;
+}
+
+.nav-link.active {
+  color: white !important;
+
+}
+
+form span {
+  color: #f00;
+  font-size: 0.75rem;
+}
+
+form .btn a:hover {
+  color: white;
+}
+
+form .btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.modal-footer span {
+  font-size: 0.8rem;
+}
+
+.modal.fade {
+  background-color: rgba(153, 179, 203, 0.413);
+}
+
+.iconify {
+  width: 75px;
+  height: 75px;
+}
+
+div.card.d-flex.alert-primary {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+span.seats {
+  visibility: hidden;
+}
+
+div.card.d-flex.alert-primary:hover span.seats {
+  visibility: visible;
+}
